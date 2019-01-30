@@ -37,5 +37,7 @@ namespace GraphQL
         public bool SetFieldMiddleware { get; set; } = true;
 
         public bool ThrowOnUnhandledException { get; set; } = false;
+
+        public bool AllowIntrospection { get; set; } = true;
     }
 }
