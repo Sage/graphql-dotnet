@@ -17,7 +17,6 @@ namespace GraphQL.Http
     /// </summary>
     public class HttpResponseStreamWriter : TextWriter
     {
-        private const int MinBufferSize = 128;
         internal const int DefaultBufferSize = 16 * 1024;
 
         private Stream _stream;
